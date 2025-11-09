@@ -39,7 +39,7 @@ Here's a very insightful way to map the terms conceptually. If we unpack the mat
 So together, the three components give a nice layered interpretation:
 
 $$
-E_{\text{total}}(t) = \underbrace{C_x}*{\text{identity}} + \underbrace{\epsilon_x t}*{\text{temporal drift}} + \underbrace{\int E_x dt}_{\text{inheritance / accumulated history}}
+E_{\text{total}}(t) = \underbrace{C_x}_{\text{identity}} + \underbrace{\epsilon_x t}_{\text{temporal drift}} + \underbrace{\int E_x dt}_{\text{inheritance / accumulated history}}
 $$
 
 * **Identity:** fixed, foundational, existential
