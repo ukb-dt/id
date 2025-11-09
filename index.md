@@ -28,12 +28,12 @@ Here's a very insightful way to map the terms conceptually. If we unpack the mat
 
 2. **$\epsilon_x t$ → Temporal Drift / Noise Accumulation**
 
-   * Here, $\epsilon_x$ represents uncertainty or stochastic perturbations in the system, and multiplied by (t) gives the accumulated temporal effect.
+   * Here, $\epsilon_x$ represents uncertainty or stochastic perturbations in the system, and multiplied by $t$ gives the accumulated temporal effect.
    * Conceptually, this is how the system is affected by environmental drift, minor shocks, or gradual deviations over time. It’s the “history of interactions with the environment” as experienced dynamically.
 
 3. **$\int E_x , dt$ → Inheritance / Accumulated State**
 
-   * Integration over time accumulates the effects of the state (E_x), including changes from past dynamics.
+   * Integration over time accumulates the effects of the state $E_x$, including changes from past dynamics.
    * This can be thought of as “inheritance”—the history and path-dependencies embedded into the current state of the system. It’s everything the system has “built up” or “learned” over time.
 
 So together, the three components give a nice layered interpretation:
